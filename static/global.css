@@ -1,0 +1,84 @@
+.my-page-enter-active,
+.my-page-leave-active {
+	transition: opacity 0.4s;
+}
+.my-page-enter,
+.my-page-leave-to {
+	opacity: 0;
+}
+body {overflow-x: hidden;}
+#web_home_id #logo_sec #logo_img {
+	width: 29px;
+	margin-top: -6px;
+}
+#web_home_id #logo_sec span {font-weight: 600;}
+#web_home_id #templt_filter {
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 10px;
+}
+#web_home_id #templt_filter li {
+	display: contents;
+}
+#web_home_id #templt_filter li a {
+	margin-bottom: 0;
+	border: 1px solid #888888;
+	border-radius: 0;
+	display: inline-block;
+	color: #888888;
+	padding: 0.538em 1.077em;
+	font-family: inherit;
+	font-size: .923em;
+	font-weight: 400;
+	cursor: pointer;
+	line-height: 1.65;
+	-webkit-appearance: none;
+	-webkit-font-smoothing: inherit;
+	text-decoration: none!important;
+	text-align: center;
+	max-width: 100%;
+	transition: .15s all ease;
+	border-radius: 3px;
+	margin-top: 6px;
+}
+#web_home_id #templt_filter li a.active {
+	background-color: #6f42c1;
+	border: 1px solid #6f42c1;
+	color: white;
+	font-weight: bold;
+}
+#web_home_id #templt_previw img {
+	display: inline-block;
+	width: 100%;
+}
+#web_home_id #templt_previw {
+	margin: 0 10px;
+}
+#web_home_id .pagination a {color: black;}
+#web_home_id a .overlay {
+	background: none;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+}
+#gallery .item {text-align: center;padding-bottom: 0 !important;}
+#gallery .item .img_sec {border-radius: 10px;overflow: hidden;}
+#gallery .img_sec img {
+	width: 100%;
+	height: 100%;
+	transition: all 0.4s ease-in-out;
+	display: inline-block;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+#gallery .item:hover .img_sec img {transform: scale(1.06);}
+#gallery .item h4 {
+	font-size: 16px;
+	margin-top: 20px;
+}
+#gallery {background-color: #18191B !important;color: white;}
+#gallery .sec_title {
+    text-align: center;
+    margin-bottom: 35px;
+}
