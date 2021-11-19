@@ -64,10 +64,17 @@
 
 				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mb-3 text-center">
 				    <div class="img_sec">
-				        <nuxt-link :to="{ name: 'preview-gigaland' }"><span class="overlay"></span></nuxt-link>
+				        <nuxt-link to="/preview/gigaland"><span class="overlay"></span></nuxt-link>
 				        <img src="/web/templt_imgs/gigaland.jpg">
 				    </div>
 				    <h6 class="mt-2">Gigaland - NFT Marketplace HTML Template</h6>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 mb-3 text-center">
+				    <div class="img_sec">
+				        <nuxt-link to="/preview/app-land-1"><span class="overlay"></span></nuxt-link>
+				        <img src="/web/templt_imgs/app_land_1.jpg">
+				    </div>
+				    <h6 class="mt-2">Landing Pages First App</h6>
 				</div>
 
 			</div>

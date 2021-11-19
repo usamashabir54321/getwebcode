@@ -1,0 +1,54 @@
+<template>
+    <div class="no-bottom no-top" id="content">
+        <div id="top"></div>
+        
+        <!-- section begin -->
+        <section id="subheader" class="text-light" data-bgimage="url(/preview/gigaland/assets/images/background/subheader.jpg) top">
+                <div class="center-y relative text-center">
+                    <div class="container">
+                        <div class="row">
+                            
+                            <div class="col-md-12 text-center">
+                                <h1>Create Collectible</h1>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- section close -->
+        
+
+        <!-- section begin -->
+        <section aria-label="section">
+            <div class="container">
+                <div class="row wow fadeIn">
+                    <div class="col-md-6 offset-md-3">
+                        <p>Choose "Single" if you want your collectible to be one of a kind or "Multiple" if you want to sell one collectible times</p>
+                        <nuxt-link to="/template/gigaland/light/create-single" class="opt-create">
+                            <img src="/preview/gigaland/assets/images/misc/coll-single.png" alt="">
+                            <h3>Single</h3>
+                        </nuxt-link>
+                        <nuxt-link to="/template/gigaland/light/create-multiple" class="opt-create">
+                            <img src="/preview/gigaland/assets/images/misc/coll-multiple.png" alt="">
+                            <h3>Multiple</h3>
+                        </nuxt-link>
+                    </div>                             
+                </div>
+            </div>
+        </section>
+
+    </div>
+</template>
+
+<script>
+    export default {
+        layout:'gigaland/light',
+        head: {
+            title: 'GIGALAND LIGHT CREATE OPTIONS',
+            script:[
+                { src:'/preview/gigaland/assets/js/designesia.js' , defer:'defer' },
+            ],
+        },
+    }
+</script>
